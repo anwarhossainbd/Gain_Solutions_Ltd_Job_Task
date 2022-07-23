@@ -1,0 +1,75 @@
+.preNav{
+ 
+   display: grid;
+   grid-template-columns: 2fr 3fr;
+   color:white;
+   margin-top: 5rem;
+}
+
+.row{
+   margin:4rem 20rem ;
+   display:grid;
+   grid-template-columns:2fr 3fr;
+}
+
+
+.colOne{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 423px;
+    height: 434px;
+    background: #FDFDFF;
+}
+
+
+
+.colOne h3{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.colTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 706px;
+    height: 334.5px;
+    background: #FDFDFF;
+}
+
+.colTwo h3{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.curve2{
+    display: inline;
+    position: relative;
+    
+}
+
+.curve2child1{
+    position: absolute;
+    line-height:50px;
+}
+
+.curve2child{
+    position: absolute;
+    top: 5px ;
+    left: 225px
+}
+
