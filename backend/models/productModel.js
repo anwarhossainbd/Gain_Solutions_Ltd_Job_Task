@@ -26,9 +26,18 @@ const productSchema = new mongoose.Schema({
     },
 
     Tags:{
-
-      
-
+        bestValue:{
+            type:Number,
+           
+        },
+        bestCamera:{
+            type:Number,
+           
+        },  
+        bestPerformance:{
+            type:Number,
+           
+        },  
     } ,
  
 
